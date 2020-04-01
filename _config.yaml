@@ -1,0 +1,13 @@
+# https://jekyllrb.com/docs/configuration/options/
+
+# Server
+source: Dashboard
+destination: _site
+keep_files:
+  - assets/css
+  - assets/js
+host: "localhost"
+baseurl: ""
+exclude:
+  - assets/scss
+  - assets/js
