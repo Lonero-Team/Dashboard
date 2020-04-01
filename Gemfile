@@ -1,4 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "~> 3.1"
-gem "jekyll-sitemap"
+gem 'jekyll'
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+end

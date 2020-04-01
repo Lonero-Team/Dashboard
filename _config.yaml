@@ -1,7 +1,7 @@
 # https://jekyllrb.com/docs/configuration/options/
 
 # Server
-source: Dashboard
+source: src
 destination: _site
 keep_files:
   - assets/css
@@ -11,3 +11,5 @@ baseurl: ""
 exclude:
   - assets/scss
   - assets/js
+  - assets/options
+
